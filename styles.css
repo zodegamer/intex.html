@@ -1,33 +1,69 @@
-body {
-    background-color: #1D4221;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    margin: 0;
+.entry-content code {
+ background-color: #F2F2F2;
+ padding: 0 .2em;
+}
+.entry-content pre {
+ background-color: #F2F2F2;
+ padding: .5em 1em;
+ overflow: auto;
+ word-wrap: normal;
 }
 
-button {
-    background-color: #64A712;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+/* Content Boxes
+------------------------------------------------------------ */
+ 
+.content-box-blue
+
+
+.content-box-gray,
+
+
+.content-box-green,
+
+
+.content-box-purple,
+
+
+.content-box-red,
+
+
+.content-box-black {
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+ 
+.content-box-blue {
+	color: rgb(255, 255, 255);
+  background-color: #0059b3;
 }
 
-.passo {
-    display: none;
+.content-box-gray {
+	color: rgb(000, 000, 000);
+  background-color: #F2F2F2;
 }
 
-.passo.ativo {
-    display:block;
+
+.content-box-green {
+	color: rgb(255, 255, 255); /heart for you
+
+ping error 
+
+    
+  background-color: #008758;
 }
 
-main {
-    text-align: center;
-    max-width: 90%;
+.content-box-purple {
+	color: rgb(255, 255, 255);
+  background-color: #cc4b00;
 }
 
-img {
-    max-width: 90%;
+.content-box-red {
+	color: rgb(255, 255, 255);
+  background-color: #e02f36;
+}
+
+.content-box-black {
+	color: rgb(255, 255, 255);
+  background-color: #000000;
 }
