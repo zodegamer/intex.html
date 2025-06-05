@@ -1,76 +1,30 @@
-.entry-content code {
- background-color: #F2F2F2;
- padding: 0 .2em;
-}
-.entry-content pre {
- background-color: #F2F2F2;
- padding: .5em 1em;
- overflow: auto;
- word-wrap: normal;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #C92BFC;
 }
 
-/* Content Boxes
------------------------------------------------------------- */
- 
-.content-box-blue
-
-
-.content-box-gray,
-
-
-.content-box-green,
-
-
-.content-box-purple,
-
-
-.content-box-red,
-
-
-.content-box-black {
-    margin: 0 0 25px;
-    overflow: hidden;
-    padding: 20px;
-}
- 
-.content-box-blue {
-	color: rgb(255, 255, 255);
-  background-color: #0059b3;
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
 }
 
-.content-box-gray {
-	color: rgb(000, 000, 000);
-  background-color: #F2F2F2;
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
-
-.content-box-green {
-	color: rgb(255, 255, 255); /heart for you
-
-ping error code 508/ 
-
-    
-  background-color: #008758;
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
 }
 
-.content-box-purple {
-
-
-	
-	cyberpunk///// color 000000 
+a, .btn-link:hover {
+    color: var(--cor-principal)
 }
 
-	
-	color: rgb(255, 255, 255);
-  background-color: #cc4b00;
-}
-
-.content-box-red {
-	color: rgb(255, 255, 255);
-  background-color: #e02f36;
-}
-
-.content-box-black {
-	color: rgb(255, 255, 255);
-  background-color: #000000;
+a:hover{
+    color: var(--cor-destaque);
 }
